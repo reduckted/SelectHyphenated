@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source", "source", "{4BBD3CE7-F827-4FBB-B53F-87017D63769B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{703FC77F-FD5C-4995-8F12-4E271ADC8178}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE.txt = LICENSE.txt
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SelectHyphenated", "source\SelectHyphenated\SelectHyphenated.vbproj", "{8B05A6F5-6E73-43CF-ABFA-078872C9B8DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B05A6F5-6E73-43CF-ABFA-078872C9B8DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B05A6F5-6E73-43CF-ABFA-078872C9B8DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B05A6F5-6E73-43CF-ABFA-078872C9B8DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B05A6F5-6E73-43CF-ABFA-078872C9B8DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8B05A6F5-6E73-43CF-ABFA-078872C9B8DC} = {4BBD3CE7-F827-4FBB-B53F-87017D63769B}
+	EndGlobalSection
+EndGlobal
