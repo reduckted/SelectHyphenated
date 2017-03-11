@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="SelectHyphenated.thirdwaffle.3aabc2ff-1bf1-40f7-afb0-36b87c3702c7" Version="1.1" Language="en-US" Publisher="reduckted" />
+    <Identity Id="SelectHyphenated.thirdwaffle.3aabc2ff-1bf1-40f7-afb0-36b87c3702c7" Version="1.2" Language="en-US" Publisher="reduckted" />
     <DisplayName>Select Hyphenated</DisplayName>
     <Description xml:space="preserve">Selects entire hyphenated words when you double-click them.</Description>
     <MoreInfo>https://github.com/reduckted/select-hyphenated</MoreInfo>
