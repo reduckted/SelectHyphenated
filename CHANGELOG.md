@@ -1,5 +1,8 @@
 # Change Log
 
+### v1.3
+- Added support for Visual Studio 2019.
+
 ### v1.2
 - Fixed backward compatibility with Visual Studio 2015.
 
