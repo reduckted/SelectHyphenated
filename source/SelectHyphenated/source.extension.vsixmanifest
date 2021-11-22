@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="SelectHyphenated.thirdwaffle.3aabc2ff-1bf1-40f7-afb0-36b87c3702c7" Version="1.3" Language="en-US" Publisher="reduckted" />
-        <DisplayName>Select Hyphenated</DisplayName>
-        <Description xml:space="preserve">Selects entire hyphenated words when you double-click them.</Description>
+        <Identity Id="SelectHyphenated.thirdwaffle.3aabc2ff-1bf1-40f7-afb0-36b87c3702c7" Version="1.4" Language="en-US" Publisher="reduckted" />
+        <DisplayName>Select Hyphenated (64-bit)</DisplayName>
+        <Description xml:space="preserve">Selects entire hyphenated words when you double-click them. Skyward Updated to 64-bit to work with VS2022</Description>
         <MoreInfo>https://github.com/reduckted/SelectHyphenated</MoreInfo>
         <License>LICENSE.txt</License>
         <Icon>resources\logo.png</Icon>
@@ -11,8 +11,9 @@
         <Tags>selection</Tags>
     </Metadata>
     <Installation>
-        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[14.0]" />
-        <InstallationTarget Version="[15.0,17.0)" Id="Microsoft.VisualStudio.Community" />
+        <InstallationTarget Version="[17.0,18.0)" Id="Microsoft.VisualStudio.Pro">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
     </Installation>
     <Dependencies>
         <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
@@ -21,6 +22,6 @@
         <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%|" />
     </Assets>
     <Prerequisites>
-        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0.26208.0,17.0)" DisplayName="Visual Studio core editor" />
+        <Prerequisite Id="Microsoft.Net.Component.4.8.SDK" Version="[17.0.31804.368,18.0)" DisplayName=".NET Framework 4.8 SDK" />
     </Prerequisites>
 </PackageManifest>
